@@ -1,0 +1,49 @@
+name: reline_notifications
+description:
+  A Flutter package that handles push notifications efficiently using Firebase Messaging and
+  local notifications. Supports background message handling, scheduling notifications,
+  and offers utilities for timezone management and dependency injection.
+
+
+version: 1.0.8
+homepage: https://github.com/azabcodes/reline_notifications
+issue_tracker: https://github.com/azabcodes/reline_notifications/issues
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_messaging: ^16.0.2
+  flutter_local_notifications: ^19.2.1
+  dio: ^5.8.0+1
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  dartz: ^0.10.1
+  equatable: ^2.0.7
+  get_it: ^8.0.3
+  timezone: ^0.10.1
+
+executables:
+  reline_notifications: setup_notifications
+
+
+
+
+topics:
+  - notifications
+  - push-notifications
+  - flutter-notifications
+  - firebase-messaging
+  - high-q-notifications
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
